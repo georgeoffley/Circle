@@ -1,11 +1,13 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
+
+// Circle function
 void DrawCircle()
 {
-	glBegin(GL_POLYGON);                        // Middle circle
+	glBegin(GL_POLYGON);
 	double radius = 0.4;
-	double ori_x = 0.0;                         // the origin or center of circle
+	double ori_x = 0.0;
 	double ori_y = 0.0;
 	for (int i = 0; i <= 600; i++) {
 		double angle = 2 * 3.14 * i / 600;
